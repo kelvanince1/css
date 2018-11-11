@@ -1,0 +1,12 @@
+body {
+  font-size: 15px;
+}
+
+section {
+  background: #ff1b86;
+}
+
+.section-title {
+  color: #2ddf5c;
+  font-family: 'Anton', sans-serif;
+}
