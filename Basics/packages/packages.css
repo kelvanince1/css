@@ -2,6 +2,10 @@ main {
     padding-top: 2rem;
 }
 
+#plus:hover {
+  animation: move-up 1s ease-out;
+}
+
 .background {
     background: url("../images/plans-background.jpg") center/cover;
     filter: grayscale(40%);
@@ -114,5 +118,18 @@ main {
   #free:hover,
   #free:active {
       border-right-color: #ff5454;
+  }
+}
+
+@keyframes move-up {
+  0% {
+    transform: rotateX(0);
+  }
+
+  50% {
+    transform: rotateX(50deg);
+  }
+  100% {
+    transform: rotateX(100deg);
   }
 }
