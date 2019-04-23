@@ -4,6 +4,7 @@ table, tr, th, td {
 
 #header {
   height: 100px;
+  width: 242%;
   color: #FFFFFF;
   background-color: green;
 }
