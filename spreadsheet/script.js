@@ -27,6 +27,7 @@ for (let i = 0; i < 20; i++) {
     td.appendChild(input);
     tr.appendChild(td);
   }
+  tr.id = i;
   tableBody.appendChild(tr);
 }
 spreadsheet.appendChild(table);
