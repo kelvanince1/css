@@ -83,6 +83,7 @@ footer div {
   justify-content: center;
   align-items: center;
   text-align: center;
+  display: none;
 }
 
 .mobile_items {
@@ -90,4 +91,8 @@ footer div {
   padding: 0;
   margin: 0;
   font-size: 2rem;
+}
+
+.open {
+  display: flex;
 }
