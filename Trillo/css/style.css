@@ -487,7 +487,8 @@ body {
   color: #fff;
   position: relative;
   overflow: hidden;
-  cursor: pointer; }
+  cursor: pointer; 
+}
   .btn > * {
     display: inline-block;
     height: 100%;
