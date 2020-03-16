@@ -1,0 +1,19 @@
+body {
+    background-color: beige;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    width: 100%;
+}
+
+.item {
+    flex-basis: 25%;
+    background-color: #f1425d;
+    padding: 30px;
+    margin: 30px;
+    color: #fff;
+    font-size: 40px;
+}
